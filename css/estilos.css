@@ -1,12 +1,48 @@
-body { background-color:pink}
-.amarillo { background-color:violet;}
+body { background-color:pink;
+background-image:url(../imagenes/cocinafondo.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.amarillo { background-color:violet;
+padding: 20px;
+margin: 40px}
 .letra {font-size: 45px}
 .color {color:purple }
-img {width: 1250px;
-  height:470px
+img {width: 580px;
+  height:270px
+
 }
+
 .titulos{text-align: center;}
 .letra {text-align:center;}
 .titulos {color: purple;}
 .amarillo {text-align: center;}
 .letra {color:purple}
+
+  .whatsapp-flotante{position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-size: 24px;
+    color:#25D366;
+    background-color: #FFF;
+    padding:10PX;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  align-items: center;}
+
+.contenedor{display: flex;
+justify-content: center;
+
+}
+.contenedor a{font-size: 50px ;
+}
+.facebook{
+color: blue
+}
+.whatsapp{color:#7DDA58}
+.instagram{color:#E4080A}
+.contenedor a:hover{color:#FFFFFF
+}
