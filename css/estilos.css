@@ -4,6 +4,27 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;}
+.sub{text-align: center;}
+.menu {background-color:#000000 ;
+display: inline-flex ;
+padding: 15PX ;
+}
+.menu a{text-decoration: none;
+color: #8D6F64;
+padding: 0 10px;}
+.menu a:hover{
+  background-color: #4D352D
+}
+
+.pc a{text-decoration: none;
+color:#4D352D;
+background-color:#00000;
+text-align: center;
+}
+.pc a:hover{}
+
+
+
 
 .amarillo { background-color:violet;
 padding: 20px;
@@ -57,14 +78,29 @@ header {display: flex; flex-wrap: wrap;
  justify-content: flex-start;}
 
  .logo{display: flex;
- justify-content: flex-start;}
+ justify-content: flex-start;
+border-radius: 30%}
+.app {display: flex;
+justify-content: flex-end;}
 
 
-
- .rr{width: 100px }
-
+ .rr{width: 50% }
+.rr{display: flex;
+  flex-direction:row-reverse; }
 
 
  footer {display: flex; flex-wrap: wrap;
    justify-content: space-around;
     }
+    .mapa{width: 300;
+      height: 300}
+
+
+
+a:link{color:#C503FD; }
+a:visited {color: #796B66;}
+a:active{color: black}
+
+.enlaces a { text-decoration: none;
+color:#4D352D;
+background-color:#00000 }
