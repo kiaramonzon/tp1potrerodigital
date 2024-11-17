@@ -104,3 +104,28 @@ a:active{color: black}
 .enlaces a { text-decoration: none;
 color:#4D352D;
 background-color:#00000 }
+
+
+
+
+nav{height: 15vh;
+
+}
+.menu{width: 50%;
+background-color: black}
+
+@media (max-width: 700px) {
+  .cocina {display:none;
+
+}}
+
+@media   (min-width: 700px) {
+  .tabla {display:none;
+
+}}
+
+@media   (min-width: 700px) {
+  body {
+    background-image: url(../imagenes/fondooscuro.jpg);
+
+}}
