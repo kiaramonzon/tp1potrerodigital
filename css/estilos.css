@@ -111,7 +111,7 @@ background-color:#00000 }
 nav{height: 15vh;
 
 }
-.menu{width: 50%;
+.menu{width: 100%;
 background-color: black}
 
 @media (max-width: 700px) {
@@ -129,3 +129,11 @@ background-color: black}
     background-image: url(../imagenes/fondooscuro.jpg);
 
 }}
+function cambiarfondo() { document.body.style.backgroundColor = "black";
+
+
+ }
+
+function cartel() {alert("potrero digital")
+
+}
