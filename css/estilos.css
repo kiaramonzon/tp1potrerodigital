@@ -1,4 +1,4 @@
-body { background-color:pink;
+body { background-color:BLACK;
 background-image:url(../imagenes/cocinafondo.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -129,11 +129,3 @@ background-color: black}
     background-image: url(../imagenes/fondooscuro.jpg);
 
 }}
-function cambiarfondo() { document.body.style.backgroundColor = "black";
-
-
- }
-
-function cartel() {alert("potrero digital")
-
-}

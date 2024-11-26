@@ -1,5 +1,5 @@
-function fondo() { document.body.style.backgroundcolor ="black" ;
-
+function fondo() { document.body.style.backgroundImage = "none" ;
+document.body.style.backgroundcolor ="black"
 
  }
 
