@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 body { background-color:BLACK;
 background-image:url(../imagenes/cocinafondo.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;}
-.sub{text-align: center;}
+.sub{text-align-last: left ;}
 .menu {background-color:#000000 ;
 display: inline-flex ;
-padding: 15PX ;
+padding: 15PX;
 }
 .menu a{text-decoration: none;
 color: #8D6F64;
-padding: 0 10px;}
+padding:20  10px;margin: 15px}
 .menu a:hover{
   background-color: #4D352D
 }
+
 
 .pc a{text-decoration: none;
 color:#4D352D;
@@ -126,6 +129,22 @@ background-color: black}
 
 @media   (min-width: 700px) {
   body {
-    background-image: url(../imagenes/fondooscuro.jpg);
+    background-image: url(../imagenes/fondo3.jpg);
 
 }}
+
+.let {color:violet}
+
+.letra{font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.subti {font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+  .carousel-inner{width:700px;
+  }
